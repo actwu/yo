@@ -1,0 +1,21 @@
+<loaf>
+set title Student SPP
+set info Manage student data efficiently
+set cover 1
+set icon 1
+set keys name grade subject
+
+ask NAME
+ask GRADE
+ask SUBJECT
+
+say "Student: NAME"
+say "Grade: GRADE"
+say "Subject: SUBJECT"
+
+if GRADE >= 60:
+ say "Status: Passed"
+else:
+ say "Status: Failed"
+</loaf>
+<script src="https://ise.web.app/loaf.js"></script>
